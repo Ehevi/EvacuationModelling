@@ -4,7 +4,7 @@
 ## Problem
 Zbadanie możliwości modelowania procesu ewakuacji budynku D17
 
-**Proces ewakuacji** - proces, który pozwala osobom znajdującym się w zagrożonejn przestrzeni dotrzeć do miejsca bezpieczeństwa, składającego się z procesu przed
+**Proces ewakuacji** - proces, który pozwala osobom znajdującym się w zagrożonej przestrzeni dotrzeć do miejsca bezpieczeństwa, składającego się z procesu przed
 przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 ### Cele
 - [ ] opracowanie przygotowania rzeczywistych danych - zbiór danych, o którym mowa w rozdziale 5.2. pracy (strona 40), rozrysowane tabelki
@@ -27,7 +27,7 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 
 ## Dziedzina
 ### Metryki
-- krzywa ewakuacyjna - zalezność liczby osób pozostających w budynku od czasu,
+- krzywa ewakuacyjna - zależność liczby osób pozostających w budynku od czasu,
 - liczba ludzi, którzy wyszli poszczególnymi wyjsciami ewakuacyjnymi,
 - sekwencje ewakuacji - analiza rozmieszczenia ludzi w danych momentach ewakuacji,
 - identyfikacja punktów zatłoczenia
