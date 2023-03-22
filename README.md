@@ -54,6 +54,7 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 - [ ] łatwość procesu dostosowania danych do formatu akceptowanego przez program
 - [ ] prosta interpretacja wyników działania programu
 - [ ] funkcjonalności
+- [ ] bieżące update'y
 
 ## Przegląd symulatorów
 | Symulator | [Pathfinder](https://www.thunderheadeng.com/pathfinder) | STEPS |
@@ -66,6 +67,7 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 | popularność | dobre opinie | dobre opinie |
 | wyniki | automatyczna analiza wyników | mapy, wizualizacje, csv, xlsx |
 | funckjonalności| windy, kolejki, customowa populacja | ruch pieszych |
+| bieżące update'y | tak | ? |
 
 ## Ogólne informacje
 - do każego sprawdzonego rozwiązania musimy dopasować dane wejściowe do przyjmowanego formatu
