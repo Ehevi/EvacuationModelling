@@ -42,4 +42,14 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 #### oparte o reguły / oparte o siły
 #### wysokiej prawdziwości / niskiej prawdziwości
 
-
+# Etap 2. Analiza wymagań i przegląd dostępnych rozwiązań pod ich kątem
+22.03.2023
+## Kryteria wyboru rozwiązania (lista wymagań):
+- [ ] darmowy dostęp do oprogramowania i jego kodu źródłowego
+- [ ] open source lub licencja studencka
+- [ ] brak wygórowanych wymagań technicznych do uruchomienia symulacji
+- [ ] łatwość instalacji i obsługi narzędzia
+- [ ] obecność tutoriali i wsparcia
+- [ ] popularność rozwiązania (np. wykorzystanie przez firmy zajmujące się problematyką)
+- [ ] łatwość procesu dostosowania danych do formatu akceptowanego przez program
+- [ ] prosta interpretacja wyników działania programu
