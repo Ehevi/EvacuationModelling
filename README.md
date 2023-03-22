@@ -21,9 +21,9 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 - [ ] [Cromosim](http://www.cromosim.fr/example_micro.html#social-force-model)
 - [ ] [JuPedSim](https://www.jupedsim.org/jpscore_introduction.html)
 - [ ] [jCrowdSimulator](https://github.com/FraunhoferIVI/jCrowdSimulator)
-- [ ] ? (rozwiązanie komercyjne) [STEPS](https://www.steps.mottmac.com/free-trial) - brak odpowiedzi w kwestii wersji próbnej
-- [ ] [Pathfinder](https://www.thunderheadeng.com/pathfinder) - spełnia wszystkie wymagania
-- [ ] [AnyLogic](https://www.anylogic.com/) - w teorii spełnia wymagania, trudny w obsłudze
+- [ ] [STEPS](https://www.steps.mottmac.com/free-trial) - brak odpowiedzi w kwestii wersji próbnej
+- [ ] [Pathfinder](https://www.thunderheadeng.com/pathfinder) - spełnia wszystkie wymagania, można stworzyć plan budynku na podstawie zdjęcia, obsługuje schody, animacje 3d
+- [ ] [AnyLogic](https://www.anylogic.com/) - w teorii spełnia wymagania i robi to co Pathfinder, ale trudny w obsłudze
 
 ## Dziedzina
 ### Metryki
