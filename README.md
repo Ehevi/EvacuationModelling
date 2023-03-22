@@ -22,7 +22,7 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 - [ ] [JuPedSim](https://www.jupedsim.org/jpscore_introduction.html)
 - [ ] [jCrowdSimulator](https://github.com/FraunhoferIVI/jCrowdSimulator)
 - [ ] [STEPS](https://www.steps.mottmac.com/free-trial) - brak odpowiedzi w kwestii wersji próbnej
-- [ ] [Pathfinder](https://www.thunderheadeng.com/pathfinder) - spełnia wszystkie wymagania, można stworzyć plan budynku na podstawie zdjęcia, obsługuje schody, animacje 3d, [przykład użycia](https://drive.google.com/file/d/1q-4CkyMdyNvNnSfDOdSghv_SG9Z4bGrw/view?usp=sharing)
+- [ ] [Pathfinder](https://www.thunderheadeng.com/pathfinder) - spełnia wszystkie wymagania, można stworzyć plan budynku na podstawie zdjęcia, obsługuje schody, animacje 3d
 - [ ] [AnyLogic](https://www.anylogic.com/) - w teorii spełnia wymagania i robi to co Pathfinder, ale trudny w obsłudze
 
 ## Dziedzina
@@ -53,3 +53,22 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 - [ ] popularność rozwiązania (np. wykorzystanie przez firmy zajmujące się problematyką)
 - [ ] łatwość procesu dostosowania danych do formatu akceptowanego przez program
 - [ ] prosta interpretacja wyników działania programu
+- [ ] funkcjonalności
+
+## Przegląd symulatorów
+| Symulator | [Pathfinder](https://www.thunderheadeng.com/pathfinder) | STEPS |
+|--------:|----------------------------|--------------|
+| dostęp | możliwość pobrania | możliwość pobrania |
+| licencja | licencja studencka | licencja studencka (?) / free trial |
+| wymagania techniczne | dostępne tutoriale i forum | tutoriale, forum |
+| instalacja i obsługa | bez problemu | brak odpowiedzi |
+| wsparcie | dokumentacja, tutoriale, forum | brak odpowiedzi |
+| popularność | dobre opinie | dobre opinie |
+| wyniki | automatyczna analiza wyników | mapy, wizualizacje, csv, xlsx |
+| funckjonalności| windy, kolejki, customowa populacja | ruch pieszych |
+
+## Ogólne informacje
+- do każego sprawdzonego rozwiązania musimy dopasować dane wejściowe do przyjmowanego formatu
+- "przyjemność obsługi"
+- rozwiązania komercyjne: Pathfinder - dostaliśmy licencję studencką, STEPS - brak odpowiedzi
+- spora część rozwiązań z listy jest niedostępna
