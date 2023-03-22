@@ -22,7 +22,7 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 - [ ] [JuPedSim](https://www.jupedsim.org/jpscore_introduction.html)
 - [ ] [jCrowdSimulator](https://github.com/FraunhoferIVI/jCrowdSimulator)
 - [ ] [STEPS](https://www.steps.mottmac.com/free-trial) - brak odpowiedzi w kwestii wersji próbnej
-- [ ] [Pathfinder](https://www.thunderheadeng.com/pathfinder) - spełnia wszystkie wymagania, można stworzyć plan budynku na podstawie zdjęcia, obsługuje schody, animacje 3d
+- [ ] [Pathfinder](https://www.thunderheadeng.com/pathfinder) - spełnia wszystkie wymagania, można stworzyć plan budynku na podstawie zdjęcia, obsługuje schody, animacje 3d, [przykład użycia](https://drive.google.com/file/d/1q-4CkyMdyNvNnSfDOdSghv_SG9Z4bGrw/view?usp=sharing)
 - [ ] [AnyLogic](https://www.anylogic.com/) - w teorii spełnia wymagania i robi to co Pathfinder, ale trudny w obsłudze
 
 ## Dziedzina
