@@ -1,0 +1,778 @@
+
+***SUMMARY***SUMMARY***SUMMARY***SUMMARY***SUMMARY***
+
+Simulation:         Evacuation
+Version:            2022.3.1207
+Mode:               Steering
+Total Occupants:    290
+
+
+Completion Times for All Occupants (s):
+  Min:                2.2 "00076"
+  Max:              137.1 "00269"
+  Average:           71.7
+  StdDev:            36.5
+
+Completion Times by Behavior (s):
+       Behavior	Count	Min	Min_Name	  Max	Max_Name	 Avg	StdDev
+  Goto Any Exit	  290	2.2	 "00076"	137.1	 "00269"	71.7	  36.5
+*all behaviors*	  290	2.2	 "00076"	137.1	 "00269"	71.7	  36.5
+
+Completion Times by Profile (s):
+       Profile	Count	Min	Min_Name	  Max	Max_Name	 Avg	StdDev
+       Default	  290	2.2	 "00076"	137.1	 "00269"	71.7	  36.5
+*all profiles*	  290	2.2	 "00076"	137.1	 "00269"	71.7	  36.5
+
+Travel Distances for All Occupants (m):
+  Min:                1.9 "00076"
+  Max:              119.9 "00269"
+  Average:           64.5
+  StdDev:            28.9
+
+Movement Distance by Behavior (m):
+       Behavior	Count	Min	Min_Name	  Max	Max_Name	 Avg	StdDev
+  Goto Any Exit	  290	1.9	 "00076"	119.9	 "00269"	64.5	  28.9
+*all behaviors*	  290	1.9	 "00076"	119.9	 "00269"	64.5	  28.9
+
+Movement Distance by Profile (m):
+       Profile	Count	Min	Min_Name	  Max	Max_Name	 Avg	StdDev
+       Default	  290	1.9	 "00076"	119.9	 "00269"	64.5	  28.9
+*all profiles*	  290	1.9	 "00076"	119.9	 "00269"	64.5	  28.9
+
+[Components] All:   723
+[Components] Doors: 257
+Triangles:          17137
+Startup Time:       0.1s
+CPU Time:           8.5s
+
+Door Flow Rates:
+                 Door	First_In	Last_Out	Last_Out_Name	Total_Use	 Flow_Avg
+                     	     (s)	     (s)	             	   (pers)	 (pers/s)
+     Piętro 0->Door04	     2.2	     3.4	        00065	        2	     1.67
+     Piętro 0->Door05	     1.5	     6.6	        00065	        3	     0.58
+    Piętro 0->Door100	     2.2	   137.1	        00269	      290	     2.15
+    Piętro 0->Door101	     1.1	   128.3	        00277	      159	     1.25
+    Piętro 0->Door107	     1.9	     1.9	        00112	        1	         
+    Piętro 0->Door108	    16.5	   111.8	        00232	       93	     0.98
+     Piętro 0->Door12	     2.8	     2.8	        00069	        1	         
+     Piętro 0->Door13	     0.9	     0.9	        00069	        1	         
+     Piętro 0->Door42	     0.0	     0.0	             	        0	         
+     Piętro 0->Door44	     0.0	     0.0	             	        0	         
+     Piętro 0->Door47	     2.3	     4.0	        00062	        2	     1.21
+     Piętro 0->Door48	     1.9	    35.7	        00043	        7	     0.21
+     Piętro 0->Door49	     1.5	    10.2	        00058	        8	     0.91
+     Piętro 0->Door50	     0.0	     0.0	             	        0	         
+     Piętro 0->Door51	     1.6	    39.1	        00118	        4	     0.11
+     Piętro 0->Door53	     3.4	     6.4	        00071	        3	     0.98
+     Piętro 0->Door54	     6.9	     6.9	        00073	        1	         
+     Piętro 0->Door56	     0.0	     0.0	             	        0	         
+     Piętro 0->Door57	     1.0	    19.6	        00039	       30	     1.62
+     Piętro 0->Door59	    13.9	   111.8	        00277	       91	     0.93
+     Piętro 0->Door68	     2.8	     4.8	        00083	        2	     1.04
+     Piętro 0->Door69	     4.7	   128.6	        00232	      128	     1.03
+     Piętro 0->Door70	     2.0	     2.0	        00084	        1	         
+     Piętro 0->Door72	     4.3	    11.4	        00080	        4	     0.57
+     Piętro 0->Door73	     2.4	     7.8	        00080	        3	     0.56
+     Piętro 0->Door74	     0.0	     0.0	             	        0	         
+     Piętro 0->Door75	     2.1	     4.7	        00080	        2	     0.75
+     Piętro 0->Door76	     5.5	   121.5	        00232	      120	     1.03
+     Piętro 0->Door77	     2.6	     2.6	        00085	        1	         
+     Piętro 0->Door79	     4.5	     4.5	        00085	        1	         
+     Piętro 0->Door83	     8.1	    10.5	        00106	        3	     1.22
+     Piętro 0->Door84	     1.5	    11.4	        00101	        6	     0.61
+     Piętro 0->Door85	     0.0	     0.0	             	        0	         
+     Piętro 0->Door86	     0.0	     0.0	             	        0	         
+     Piętro 0->Door87	     3.2	     8.5	        00101	        5	     0.95
+     Piętro 0->Door90	     6.4	     6.4	        00098	        1	         
+     Piętro 0->Door91	     0.0	     0.0	             	        0	         
+     Piętro 0->Door92	     1.3	     1.3	        00111	        1	         
+     Piętro 0->Door93	     2.1	     3.8	        00112	        2	     1.16
+     Piętro 0->Door94	     6.9	     7.7	        00112	        1	         
+     Piętro 0->Door95	     5.1	    16.8	        00109	        3	     0.26
+     Piętro 0->Door97	     0.0	     0.0	             	        0	         
+     Piętro 0->Door98	     3.3	     4.4	        00096	        2	     1.78
+     Piętro 0->Door99	     2.2	     2.2	        00107	        1	         
+       Stair07 door 1	    12.7	   102.7	        00277	       86	     0.96
+       Stair07 door 2	    15.8	   106.5	        00277	       86	     0.95
+       Stair08 door 1	    11.7	   100.4	        00277	       86	     0.97
+       Stair08 door 2	    10.3	    98.5	        00277	       86	     0.98
+       Stair09 door 1	     9.1	    95.5	        00277	       86	     1.00
+       Stair09 door 2	     6.0	    91.8	        00277	       86	     1.00
+       Stair12 door 1	     8.6	   102.0	        00232	       93	     1.00
+       Stair12 door 2	    11.6	   106.5	        00232	       93	     0.98
+       Stair13 door 1	     7.6	    99.9	        00232	       93	     1.01
+       Stair13 door 2	     6.2	    97.6	        00232	       93	     1.02
+       Stair14 door 1	     5.1	    94.7	        00232	       93	     1.04
+       Stair14 door 2	     2.0	    89.3	        00232	       93	     1.07
+  Piętro 1->Door108_1	     2.6	    36.7	        00166	       33	     0.97
+    Piętro 1->Door109	     0.0	     0.0	             	        0	         
+    Piętro 1->Door110	     0.0	     0.0	             	        0	         
+    Piętro 1->Door113	     0.0	     0.0	             	        0	         
+    Piętro 1->Door114	     0.0	     0.0	             	        0	         
+    Piętro 1->Door116	     0.0	     0.0	             	        0	         
+    Piętro 1->Door117	     1.3	     3.1	        00124	        2	     1.10
+    Piętro 1->Door118	     0.0	     0.0	             	        0	         
+    Piętro 1->Door119	     1.8	     1.8	        00120	        1	         
+    Piętro 1->Door121	     0.0	     0.0	             	        0	         
+    Piętro 1->Door123	     0.0	     0.0	             	        0	         
+    Piętro 1->Door124	     0.0	     0.0	             	        0	         
+    Piętro 1->Door125	     0.0	     0.0	             	        0	         
+    Piętro 1->Door127	     3.3	    33.2	        00122	       25	     0.84
+    Piętro 1->Door128	     0.0	     0.0	             	        0	         
+    Piętro 1->Door129	     3.7	     6.8	        00149	        3	     0.98
+    Piętro 1->Door130	     0.0	     0.0	             	        0	         
+    Piętro 1->Door131	     1.6	    19.6	        00122	        7	     0.39
+    Piętro 1->Door133	     2.0	     2.0	        00170	        1	         
+    Piętro 1->Door134	     0.0	     0.0	             	        0	         
+    Piętro 1->Door136	     0.0	     0.0	             	        0	         
+    Piętro 1->Door137	     0.0	     0.0	             	        0	         
+    Piętro 1->Door138	     0.0	     0.0	             	        0	         
+    Piętro 1->Door139	     0.0	     0.0	             	        0	         
+    Piętro 1->Door140	     0.0	     0.0	             	        0	         
+    Piętro 1->Door141	    11.1	    19.8	        00166	        5	     0.57
+    Piętro 1->Door142	    12.3	    20.3	        00127	        5	     0.63
+   Piętro 1->Door91_1	     0.0	     0.0	             	        0	         
+   Piętro 1->Door97_1	     0.8	     5.6	        00164	        5	     1.04
+    Piętro 1->Door143	     2.3	     4.4	        00166	        2	     0.92
+    Piętro 1->Door144	     0.9	     2.2	        00135	        2	     1.57
+    Piętro 1->Door145	     3.0	     3.0	        00164	        1	         
+    Piętro 1->Door146	     0.0	     0.0	             	        0	         
+    Piętro 1->Door147	     0.0	     0.0	             	        0	         
+    Piętro 1->Door148	     4.3	     4.3	        00159	        1	         
+    Piętro 1->Door149	     0.8	     0.8	        00161	        1	         
+    Piętro 1->Door150	     1.9	     1.9	        00173	        1	         
+    Piętro 1->Door151	     0.0	     0.0	             	        0	         
+    Piętro 1->Door152	     0.0	     0.0	             	        0	         
+    Piętro 1->Door153	     0.0	     0.0	             	        0	         
+    Piętro 1->Door154	     1.4	     1.4	        00126	        1	         
+    Piętro 1->Door155	     0.0	     0.0	             	        0	         
+    Piętro 1->Door156	     0.0	     0.0	             	        0	         
+    Piętro 1->Door157	     6.2	     6.2	        00139	        1	         
+    Piętro 1->Door158	     3.9	     3.9	        00129	        1	         
+    Piętro 1->Door159	     0.0	     0.0	             	        0	         
+    Piętro 1->Door160	     1.8	     1.8	        00123	        1	         
+    Piętro 1->Door162	     0.0	     0.0	             	        0	         
+    Piętro 1->Door163	     1.6	     1.6	        00127	        1	         
+    Piętro 1->Door164	     0.0	     0.0	             	        0	         
+    Piętro 1->Door165	     0.0	     0.0	             	        0	         
+    Piętro 1->Door166	     0.0	     0.0	             	        0	         
+    Piętro 1->Door167	     0.0	     0.0	             	        0	         
+    Piętro 1->Door168	     8.5	     8.5	        00145	        1	         
+    Piętro 1->Door169	     6.7	     6.7	        00145	        1	         
+    Piętro 1->Door170	     0.0	     0.0	             	        0	         
+    Piętro 1->Door171	     3.2	     3.2	        00145	        1	         
+    Piętro 1->Door172	     3.1	     4.7	        00134	        2	     1.23
+    Piętro 1->Door173	     2.8	     6.9	        00157	        6	     1.47
+     Stair08_1 door 1	    11.5	    76.5	        00277	       61	     0.94
+     Stair08_1 door 2	    10.1	    74.2	        00277	       61	     0.95
+       Stair11 door 1	    12.4	    79.4	        00277	       61	     0.91
+       Stair11 door 2	    15.5	    84.0	        00277	       61	     0.89
+     Stair13_1 door 1	     8.7	    73.2	        00226	       58	     0.90
+     Stair13_1 door 2	     7.3	    70.9	        00226	       58	     0.91
+       Stair15 door 1	    12.7	    80.6	        00232	       58	     0.85
+       Stair15 door 2	     9.6	    75.5	        00232	       58	     0.88
+     Stair09_1 door 1	     8.9	    71.7	        00241	       61	     0.97
+     Stair09_1 door 2	     5.7	    66.5	        00241	       61	     1.00
+Piętro 2->Door108_1_1	     6.3	    33.5	        00183	       22	     0.81
+  Piętro 2->Door109_1	     1.1	     3.0	        00198	        2	     1.08
+  Piętro 2->Door110_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door113_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door114_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door116_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door117_1	     5.6	     8.8	        00198	        3	     0.94
+  Piętro 2->Door118_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door119_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door121_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door123_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door124_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door125_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door127_1	     3.2	    32.4	        00209	       26	     0.89
+  Piętro 2->Door128_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door129_1	     1.4	    11.9	        00186	        3	     0.29
+  Piętro 2->Door130_1	     2.0	     2.0	        00186	        1	         
+  Piętro 2->Door131_1	     1.2	    17.6	        00209	        9	     0.55
+  Piętro 2->Door133_1	     1.3	     1.3	        00220	        1	         
+  Piętro 2->Door134_1	     1.0	     1.0	        00202	        1	         
+  Piętro 2->Door136_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door137_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door138_1	     5.4	     5.4	        00216	        1	         
+  Piętro 2->Door139_1	     3.5	     3.5	        00216	        1	         
+  Piętro 2->Door140_1	     1.3	     1.3	        00215	        1	         
+  Piętro 2->Door141_1	    11.0	    16.8	        00183	        2	     0.34
+  Piętro 2->Door142_1	     6.7	    20.7	        00191	        7	     0.50
+ Piętro 2->Door91_1_1	     0.0	     0.0	             	        0	         
+ Piętro 2->Door97_1_1	     4.3	     4.3	        00210	        1	         
+  Piętro 2->Door143_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door144_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door145_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door146_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door147_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door148_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door149_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door150_1	     1.7	     3.2	        00190	        2	     1.33
+  Piętro 2->Door151_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door152_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door153_1	     4.0	     4.0	        00194	        1	         
+  Piętro 2->Door154_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door155_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door156_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door157_1	     2.5	    12.3	        00191	        2	     0.20
+  Piętro 2->Door158_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door159_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door160_1	     1.0	     1.0	        00183	        1	         
+  Piętro 2->Door162_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door163_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door164_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door165_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door166_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door167_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door168_1	     2.9	    10.1	        00175	        3	     0.42
+  Piętro 2->Door169_1	     1.1	     8.2	        00175	        3	     0.42
+  Piętro 2->Door170_1	     0.0	     0.0	             	        0	         
+  Piętro 2->Door171_1	     4.2	     5.5	        00175	        2	     1.63
+  Piętro 2->Door172_1	     3.5	     4.8	        00223	        2	     1.60
+  Piętro 2->Door173_1	     0.0	     0.0	             	        0	         
+       Stair10 door 1	    12.1	    53.9	        00241	       35	     0.84
+       Stair10 door 2	    15.2	    58.2	        00241	       35	     0.81
+     Stair14_1 door 1	     6.3	    68.3	        00226	       58	     0.93
+     Stair14_1 door 2	     3.2	    63.3	        00226	       58	     0.96
+       Stair16 door 1	    12.0	    56.2	        00226	       35	     0.79
+       Stair16 door 2	     8.9	    52.5	        00226	       35	     0.80
+     Stair09_2 door 1	     8.6	    47.4	        00241	       35	     0.90
+     Stair09_2 door 2	     5.4	    42.3	        00256	       35	     0.95
+   Stair08_1_1 door 1	    11.2	    52.3	        00241	       35	     0.85
+   Stair08_1_1 door 2	     9.7	    50.5	        00241	       35	     0.86
+     Stair13_2 door 1	     8.0	    49.9	        00226	       35	     0.84
+     Stair13_2 door 2	     6.6	    47.8	        00226	       35	     0.85
+     Stair14_2 door 1	     5.6	    45.9	        00226	       35	     0.87
+     Stair14_2 door 2	     2.5	    42.2	        00226	       35	     0.88
+Piętro 3->Door108_1_2	     1.6	    37.9	        00230	       34	     0.94
+  Piętro 3->Door109_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door110_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door113_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door114_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door116_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door117_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door118_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door119_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door121_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door123_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door124_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door125_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door127_2	     2.9	    37.7	        00241	       35	     1.00
+  Piętro 3->Door128_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door129_2	     4.4	    14.0	        00277	        9	     0.94
+  Piętro 3->Door130_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door131_2	     1.4	    22.2	        00241	       10	     0.48
+  Piętro 3->Door133_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door134_2	     2.5	     2.5	        00278	        1	         
+  Piętro 3->Door136_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door137_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door138_2	     3.3	     3.3	        00292	        1	         
+  Piętro 3->Door139_2	     1.4	     1.4	        00292	        1	         
+  Piętro 3->Door140_2	     1.3	     1.3	        00231	        1	         
+  Piętro 3->Door141_2	     8.8	    21.5	        00230	        6	     0.47
+  Piętro 3->Door142_2	     7.1	    18.7	        00269	        9	     0.78
+ Piętro 3->Door91_1_2	     0.0	     0.0	             	        0	         
+ Piętro 3->Door97_1_2	     3.2	     6.0	        00225	        3	     1.07
+  Piętro 3->Door143_2	     3.6	     6.0	        00230	        2	     0.81
+  Piętro 3->Door144_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door145_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door146_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door147_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door148_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door149_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door150_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door151_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door152_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door153_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door154_2	     2.7	     2.7	        00285	        1	         
+  Piętro 3->Door155_2	     1.8	     1.8	        00232	        1	         
+  Piętro 3->Door156_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door157_2	     4.8	     4.8	        00263	        1	         
+  Piętro 3->Door158_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door159_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door160_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door162_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door163_2	     1.7	     1.7	        00269	        1	         
+  Piętro 3->Door164_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door165_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door166_2	     1.8	     1.8	        00244	        1	         
+  Piętro 3->Door167_2	     0.0	     0.0	             	        0	         
+  Piętro 3->Door168_2	     3.9	     5.9	        00255	        2	     0.99
+  Piętro 3->Door169_2	     2.3	     2.3	        00228	        1	         
+  Piętro 3->Door170_2	     5.2	     5.2	        00286	        1	         
+  Piętro 3->Door171_2	     3.5	     3.5	        00286	        1	         
+  Piętro 3->Door172_2	     1.9	     4.7	        00262	        3	     1.09
+  Piętro 3->Door173_2	     2.7	     3.8	        00240	        2	     1.78
+
+Room Usage:
+                      Room	First_In	Last_Out	Last_Out_Name	Total_Use
+                          	     (s)	     (s)	             	   (pers)
+          Piętro 0->Room00	     0.0	     0.0	             	        0
+          Piętro 0->Room02	     0.0	     0.0	             	        0
+          Piętro 0->Room03	     0.0	     0.0	             	        0
+          Piętro 0->Room10	     0.0	     0.0	             	        0
+         Piętro 0->Room102	     0.0	     0.0	             	        0
+         Piętro 0->Room106	     0.0	    19.6	        00039	       30
+          Piętro 0->Room11	     0.0	     0.0	             	        0
+       Piętro 0->Room115_1	     0.0	     0.0	             	        0
+         Piętro 0->Room118	     0.0	     0.0	             	        0
+         Piętro 0->Room122	     0.0	     0.0	             	        0
+         Piętro 0->Room123	     0.0	     0.0	             	        0
+         Piętro 0->Room124	     0.0	     0.0	             	        0
+         Piętro 0->Room126	     0.0	     0.0	             	        0
+         Piętro 0->Room127	     0.0	     0.0	             	        0
+         Piętro 0->Room128	     0.0	     0.0	             	        0
+          Piętro 0->Room13	     0.0	    10.2	        00058	        8
+         Piętro 0->Room148	     0.0	     0.0	             	        0
+         Piętro 0->Room153	     0.0	   137.1	        00269	      290
+         Piętro 0->Room154	     0.0	   128.6	        00232	      128
+         Piętro 0->Room155	     0.0	     4.8	        00083	        2
+         Piętro 0->Room156	     0.0	     2.0	        00084	        1
+         Piętro 0->Room158	     0.0	    11.4	        00080	        4
+         Piętro 0->Room160	     0.0	     0.0	             	        0
+         Piętro 0->Room161	     0.0	     7.8	        00080	        3
+         Piętro 0->Room162	     0.0	     0.0	             	        0
+         Piętro 0->Room163	     0.0	     0.0	             	        0
+         Piętro 0->Room165	     0.0	     0.0	             	        0
+         Piętro 0->Room166	     0.0	     0.0	             	        0
+         Piętro 0->Room167	     0.0	     0.0	             	        0
+         Piętro 0->Room168	     0.0	     0.0	             	        0
+         Piętro 0->Room169	     0.0	     0.0	             	        0
+          Piętro 0->Room17	     0.0	   128.3	        00277	      159
+         Piętro 0->Room170	     0.0	     0.0	             	        0
+         Piętro 0->Room171	     0.0	     4.7	        00080	        2
+         Piętro 0->Room172	     0.0	   121.5	        00232	      120
+         Piętro 0->Room178	     2.6	     4.5	        00085	        1
+         Piętro 0->Room179	     0.0	     2.6	        00085	        1
+         Piętro 0->Room180	     6.9	     7.7	        00112	        1
+         Piętro 0->Room181	     0.0	     3.8	        00112	        2
+         Piętro 0->Room182	     0.0	     1.9	        00112	        1
+         Piętro 0->Room184	     0.0	     0.0	             	        0
+         Piętro 0->Room186	     0.0	     0.0	             	        0
+         Piętro 0->Room187	     0.0	     4.4	        00096	        2
+         Piętro 0->Room191	     0.0	     6.4	        00098	        1
+         Piętro 0->Room195	     0.0	     0.0	             	        0
+         Piętro 0->Room196	     0.0	     0.0	             	        0
+         Piętro 0->Room199	     0.0	    16.8	        00109	        4
+       Piętro 0->Room199_1	     0.0	    10.5	        00106	        4
+         Piętro 0->Room200	     0.0	     0.0	             	        0
+          Piętro 0->Room22	     0.0	     6.4	        00071	        3
+          Piętro 0->Room23	     0.9	     2.8	        00069	        1
+          Piętro 0->Room24	     0.0	     0.9	        00069	        1
+         Piętro 0->Room240	     0.0	     0.0	             	        0
+         Piętro 0->Room241	     0.0	     0.0	             	        0
+         Piętro 0->Room242	     0.0	     0.0	             	        0
+         Piętro 0->Room243	     0.0	     0.0	             	        0
+         Piętro 0->Room244	     0.0	     0.0	             	        0
+         Piętro 0->Room245	     0.0	     0.0	             	        0
+         Piętro 0->Room246	     0.0	     0.0	             	        0
+         Piętro 0->Room247	     0.0	     0.0	             	        0
+         Piętro 0->Room248	     0.0	     0.0	             	        0
+         Piętro 0->Room249	     0.0	     0.0	             	        0
+          Piętro 0->Room25	     0.0	     6.6	        00065	        3
+         Piętro 0->Room250	     0.0	     0.0	             	        0
+         Piętro 0->Room251	     0.0	     0.0	             	        0
+         Piętro 0->Room252	     0.0	     0.0	             	        0
+         Piętro 0->Room253	     0.0	     0.0	             	        0
+         Piętro 0->Room254	     0.0	     0.0	             	        0
+         Piętro 0->Room255	     0.0	     0.0	             	        0
+         Piętro 0->Room256	     0.0	     0.0	             	        0
+         Piętro 0->Room257	     0.0	     0.0	             	        0
+         Piętro 0->Room258	     0.0	     0.0	             	        0
+         Piętro 0->Room259	     0.0	     0.0	             	        0
+          Piętro 0->Room26	     0.0	     3.4	        00065	        2
+         Piętro 0->Room260	     0.0	     0.0	             	        0
+         Piętro 0->Room261	     0.0	     0.0	             	        0
+         Piętro 0->Room262	     0.0	     0.0	             	        0
+         Piętro 0->Room263	     0.0	     0.0	             	        0
+         Piętro 0->Room264	     0.0	     0.0	             	        0
+         Piętro 0->Room265	     0.0	     0.0	             	        0
+         Piętro 0->Room266	     0.0	     0.0	             	        0
+         Piętro 0->Room267	     0.0	     0.0	             	        0
+         Piętro 0->Room273	     0.0	     8.5	        00101	        5
+         Piętro 0->Room274	     0.0	     0.0	             	        0
+         Piętro 0->Room275	     0.0	     0.0	             	        0
+         Piętro 0->Room283	    11.6	   111.8	        00232	       93
+       Piętro 0->Room295_1	    11.7	   102.7	        00277	       86
+          Piętro 0->Room32	     0.0	     0.0	             	        0
+          Piętro 0->Room38	     0.0	     4.0	        00062	        2
+          Piętro 0->Room41	     0.0	     0.0	             	        0
+          Piętro 0->Room44	     0.0	    35.7	        00043	        7
+          Piętro 0->Room46	     0.0	     0.0	             	        0
+          Piętro 0->Room49	     0.0	     0.0	             	        0
+          Piętro 0->Room53	     0.0	    39.1	        00118	        4
+          Piętro 0->Room61	     0.0	     0.0	             	        0
+          Piętro 0->Room74	    13.9	   111.8	        00277	       91
+          Piętro 0->Room81	     0.0	     0.0	             	        0
+         Piętro 0->Stair07	    12.7	   106.5	        00277	       86
+         Piętro 0->Stair08	    10.3	   100.4	        00277	       86
+         Piętro 0->Stair09	     6.0	    95.5	        00277	       86
+  Piętro 0->Szatnia_parter	     0.0	     6.9	        00073	        1
+       Piętro 0->Room296_1	     9.1	    98.5	        00277	       86
+         Piętro 0->Stair12	     8.6	   106.5	        00232	       93
+      Floor 0.0 m->Room902	     7.6	   102.0	        00232	       93
+      Floor 0.0 m->Room903	     5.1	    97.6	        00232	       93
+      Floor 0.0 m->Stair13	     6.2	    99.9	        00232	       93
+      Floor 0.0 m->Stair14	     2.0	    94.7	        00232	       93
+       Piętro 1->Room106_1	     0.0	    19.6	        00122	        7
+     Piętro 1->Room115_1_1	     0.0	     0.0	             	        0
+       Piętro 1->Room124_1	     0.0	     0.0	             	        0
+       Piętro 1->Room126_1	     0.0	     0.0	             	        0
+       Piętro 1->Room127_1	     0.0	     0.0	             	        0
+       Piętro 1->Room128_1	     0.0	     0.0	             	        0
+       Piętro 1->Room153_1	     0.0	     6.9	        00157	        8
+       Piętro 1->Room156_1	     0.0	     0.0	             	        0
+       Piętro 1->Room162_1	     0.0	     0.0	             	        0
+       Piętro 1->Room163_1	     0.0	     0.0	             	        0
+       Piętro 1->Room165_1	     0.0	     0.0	             	        0
+       Piętro 1->Room166_1	     0.0	     0.0	             	        0
+       Piętro 1->Room167_1	     0.0	     0.0	             	        0
+       Piętro 1->Room168_1	     0.0	     0.0	             	        0
+       Piętro 1->Room169_1	     0.0	     0.0	             	        0
+       Piętro 1->Room170_1	     0.0	     0.0	             	        0
+       Piętro 1->Room178_1	     0.0	     0.0	             	        0
+       Piętro 1->Room179_1	     0.0	     0.0	             	        0
+       Piętro 1->Room180_1	     0.0	     0.0	             	        0
+       Piętro 1->Room181_1	     0.0	     0.0	             	        0
+       Piętro 1->Room182_1	     0.0	     0.0	             	        0
+       Piętro 1->Room184_1	     0.0	     0.0	             	        0
+       Piętro 1->Room186_1	     0.0	     5.6	        00164	        5
+       Piętro 1->Room200_1	     0.0	     0.0	             	        0
+       Piętro 1->Room240_1	     0.0	     0.0	             	        0
+       Piętro 1->Room241_1	     0.0	     0.0	             	        0
+       Piętro 1->Room242_1	     0.0	     0.0	             	        0
+       Piętro 1->Room243_1	     0.0	     0.0	             	        0
+       Piętro 1->Room244_1	     0.0	     0.0	             	        0
+       Piętro 1->Room245_1	     0.0	     0.0	             	        0
+       Piętro 1->Room246_1	     0.0	     0.0	             	        0
+       Piętro 1->Room247_1	     0.0	     0.0	             	        0
+       Piętro 1->Room248_1	     0.0	     0.0	             	        0
+       Piętro 1->Room249_1	     0.0	     0.0	             	        0
+       Piętro 1->Room250_1	     0.0	     0.0	             	        0
+       Piętro 1->Room251_1	     0.0	     0.0	             	        0
+       Piętro 1->Room252_1	     0.0	     0.0	             	        0
+       Piętro 1->Room253_1	     0.0	     0.0	             	        0
+       Piętro 1->Room254_1	     0.0	     0.0	             	        0
+       Piętro 1->Room255_1	     0.0	     0.0	             	        0
+       Piętro 1->Room256_1	     0.0	     0.0	             	        0
+       Piętro 1->Room257_1	     0.0	     0.0	             	        0
+       Piętro 1->Room258_1	     0.0	     0.0	             	        0
+       Piętro 1->Room259_1	     0.0	     0.0	             	        0
+       Piętro 1->Room260_1	     0.0	     0.0	             	        0
+       Piętro 1->Room261_1	     0.0	     0.0	             	        0
+       Piętro 1->Room262_1	     0.0	     0.0	             	        0
+       Piętro 1->Room263_1	     0.0	     0.0	             	        0
+       Piętro 1->Room264_1	     0.0	     0.0	             	        0
+       Piętro 1->Room265_1	     0.0	     0.0	             	        0
+       Piętro 1->Room266_1	     0.0	     0.0	             	        0
+       Piętro 1->Room267_1	     0.0	     0.0	             	        0
+       Piętro 1->Room274_1	     0.0	     0.0	             	        0
+       Piętro 1->Room275_1	     0.0	     0.0	             	        0
+       Piętro 1->Room283_1	     0.0	    89.3	        00232	       93
+         Piętro 1->Room815	     0.0	     0.0	             	        0
+         Piętro 1->Room817	     0.0	     0.0	             	        0
+         Piętro 1->Room818	     0.0	     0.0	             	        0
+         Piętro 1->Room819	     0.0	     3.1	        00124	        2
+         Piętro 1->Room820	     0.0	    33.2	        00122	       25
+         Piętro 1->Room823	     0.0	     0.0	             	        0
+         Piętro 1->Room824	     0.0	     0.0	             	        0
+         Piętro 1->Room825	     0.0	     1.8	        00120	        1
+         Piętro 1->Room826	     0.0	     0.0	             	        0
+         Piętro 1->Room828	     0.0	     0.0	             	        0
+         Piętro 1->Room829	     0.0	     0.0	             	        0
+         Piętro 1->Room831	     0.0	     0.0	             	        0
+         Piętro 1->Room834	     0.0	     0.0	             	        0
+         Piętro 1->Room835	     0.0	     0.0	             	        0
+         Piętro 1->Room837	     3.3	    91.8	        00277	       86
+         Piętro 1->Room841	     0.0	     6.8	        00149	        3
+         Piętro 1->Room851	     0.0	     0.0	             	        0
+         Piętro 1->Room852	     0.0	     0.0	             	        0
+         Piętro 1->Room853	     0.0	     0.0	             	        0
+         Piętro 1->Room854	     0.0	     0.0	             	        0
+         Piętro 1->Room855	     0.0	     0.0	             	        0
+         Piętro 1->Room856	     0.0	     0.0	             	        0
+         Piętro 1->Room857	     0.0	     0.0	             	        0
+         Piętro 1->Room858	     0.0	     0.0	             	        0
+         Piętro 1->Room859	     0.0	     0.0	             	        0
+         Piętro 1->Room860	     0.0	     0.0	             	        0
+         Piętro 1->Room861	     0.0	     0.0	             	        0
+         Piętro 1->Room862	     0.0	     0.0	             	        0
+         Piętro 1->Room863	     0.0	     0.0	             	        0
+         Piętro 1->Room870	     0.0	     2.0	        00170	        1
+         Piętro 1->Room874	     0.0	    36.7	        00166	       33
+         Piętro 1->Room875	     0.9	    20.3	        00127	       10
+         Piętro 1->Room877	     0.0	     0.0	             	        0
+         Piętro 1->Room879	     0.0	     4.4	        00166	        2
+         Piętro 1->Room880	     0.0	     2.2	        00135	        2
+         Piętro 1->Room881	     0.0	     6.2	        00139	        1
+         Piętro 1->Room885	     0.0	     3.0	        00164	        1
+         Piętro 1->Room886	     0.0	     0.0	             	        0
+         Piętro 1->Room887	     0.0	     4.3	        00159	        1
+         Piętro 1->Room888	     0.0	     0.8	        00161	        1
+         Piętro 1->Room889	     0.0	     1.9	        00173	        1
+         Piętro 1->Room890	     0.0	     0.0	             	        0
+         Piętro 1->Room891	     0.0	     0.0	             	        0
+         Piętro 1->Room892	     0.0	     0.0	             	        0
+         Piętro 1->Room893	     0.0	     1.4	        00126	        1
+         Piętro 1->Room894	     0.0	     0.0	             	        0
+         Piętro 1->Room895	     0.0	     3.9	        00129	        1
+         Piętro 1->Room896	     0.0	     0.0	             	        0
+       Piętro 1->Room896_1	     0.0	     1.8	        00123	        1
+       Piętro 1->Room896_1	     0.0	     0.0	             	        0
+     Piętro 1->Room896_1_1	     0.0	     1.6	        00127	        1
+     Piętro 1->Room896_1_1	     0.0	     0.0	             	        0
+   Piętro 1->Room896_1_1_1	     0.0	     0.0	             	        0
+         Piętro 1->Room897	     0.0	     0.0	             	        0
+         Piętro 1->Room898	     0.0	     0.0	             	        0
+         Piętro 1->Room899	     6.7	     8.5	        00145	        1
+         Piętro 1->Room900	     3.2	     6.7	        00145	        1
+         Piętro 1->Room901	     0.0	     3.2	        00145	        1
+       Piętro 1->Stair08_1	    10.1	    76.5	        00277	       61
+     Piętro 1->Room295_1_1	    11.5	    79.4	        00277	       61
+         Piętro 1->Stair11	    12.4	    84.0	        00277	       61
+       Piętro 1->Stair13_1	     7.3	    73.2	        00226	       58
+       Piętro 1->Room902_1	     8.7	    75.5	        00232	       58
+         Piętro 1->Stair15	     9.6	    80.6	        00232	       58
+       Piętro 2->Stair09_1	     5.7	    71.7	        00241	       61
+     Piętro 2->Room296_1_1	     8.9	    74.2	        00277	       61
+     Piętro 2->Room106_1_1	     0.0	    17.6	        00209	        9
+   Piętro 2->Room115_1_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room124_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room126_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room127_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room128_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room153_1_1	     0.0	     4.8	        00223	        2
+     Piętro 2->Room156_1_1	     0.0	     1.0	        00202	        1
+     Piętro 2->Room162_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room163_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room165_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room166_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room167_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room168_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room169_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room170_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room178_1_1	     0.0	     1.3	        00215	        1
+     Piętro 2->Room179_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room180_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room181_1_1	     3.5	     5.4	        00216	        1
+     Piętro 2->Room182_1_1	     0.0	     3.5	        00216	        1
+     Piętro 2->Room184_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room186_1_1	     0.0	     4.3	        00210	        1
+     Piętro 2->Room200_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room240_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room241_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room242_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room243_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room244_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room245_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room246_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room247_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room248_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room249_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room250_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room251_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room252_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room253_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room254_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room255_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room256_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room257_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room258_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room259_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room260_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room261_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room262_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room263_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room264_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room265_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room266_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room267_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room274_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room275_1_1	     0.0	     0.0	             	        0
+     Piętro 2->Room283_1_1	     0.0	    63.3	        00226	       58
+       Piętro 2->Room815_1	     0.0	     0.0	             	        0
+       Piętro 2->Room817_1	     0.0	     0.0	             	        0
+       Piętro 2->Room818_1	     0.0	     3.0	        00198	        3
+       Piętro 2->Room819_1	     0.0	     8.8	        00198	        3
+       Piętro 2->Room820_1	     0.0	    32.4	        00209	       26
+       Piętro 2->Room823_1	     0.0	     0.0	             	        0
+       Piętro 2->Room824_1	     0.0	     0.0	             	        0
+       Piętro 2->Room825_1	     0.0	     0.0	             	        0
+       Piętro 2->Room826_1	     0.0	     0.0	             	        0
+       Piętro 2->Room828_1	     0.0	     0.0	             	        0
+       Piętro 2->Room829_1	     0.0	     0.0	             	        0
+       Piętro 2->Room831_1	     0.0	     0.0	             	        0
+       Piętro 2->Room834_1	     0.0	     0.0	             	        0
+       Piętro 2->Room835_1	     0.0	     0.0	             	        0
+       Piętro 2->Room837_1	     3.2	    66.5	        00241	       61
+       Piętro 2->Room841_1	     0.0	    11.9	        00186	        3
+       Piętro 2->Room851_1	     0.0	     0.0	             	        0
+       Piętro 2->Room852_1	     0.0	     0.0	             	        0
+       Piętro 2->Room853_1	     0.0	     0.0	             	        0
+       Piętro 2->Room854_1	     0.0	     0.0	             	        0
+       Piętro 2->Room855_1	     0.0	     0.0	             	        0
+       Piętro 2->Room856_1	     0.0	     0.0	             	        0
+       Piętro 2->Room857_1	     0.0	     0.0	             	        0
+       Piętro 2->Room858_1	     0.0	     0.0	             	        0
+       Piętro 2->Room859_1	     0.0	     0.0	             	        0
+       Piętro 2->Room860_1	     0.0	     0.0	             	        0
+       Piętro 2->Room861_1	     0.0	     0.0	             	        0
+       Piętro 2->Room862_1	     0.0	     0.0	             	        0
+       Piętro 2->Room863_1	     0.0	     0.0	             	        0
+       Piętro 2->Room870_1	     0.0	     1.3	        00220	        1
+       Piętro 2->Room874_1	     0.0	    33.5	        00183	       22
+       Piętro 2->Room875_1	     0.0	    20.7	        00191	        9
+       Piętro 2->Room877_1	     0.0	     0.0	             	        0
+       Piętro 2->Room879_1	     0.0	     0.0	             	        0
+       Piętro 2->Room880_1	     0.0	     0.0	             	        0
+       Piętro 2->Room881_1	     0.0	    12.3	        00191	        2
+       Piętro 2->Room885_1	     0.0	     0.0	             	        0
+       Piętro 2->Room886_1	     0.0	     0.0	             	        0
+       Piętro 2->Room887_1	     0.0	     0.0	             	        0
+       Piętro 2->Room888_1	     0.0	     0.0	             	        0
+       Piętro 2->Room889_1	     0.0	     3.2	        00190	        2
+       Piętro 2->Room890_1	     0.0	     0.0	             	        0
+       Piętro 2->Room891_1	     0.0	     0.0	             	        0
+       Piętro 2->Room892_1	     0.0	     4.0	        00194	        1
+       Piętro 2->Room893_1	     0.0	     0.0	             	        0
+       Piętro 2->Room894_1	     0.0	     0.0	             	        0
+       Piętro 2->Room895_1	     0.0	     0.0	             	        0
+       Piętro 2->Room896_1	     0.0	     0.0	             	        0
+     Piętro 2->Room896_1_1	     0.0	     1.0	        00183	        1
+     Piętro 2->Room896_1_1	     0.0	     0.0	             	        0
+   Piętro 2->Room896_1_1_1	     0.0	     0.0	             	        0
+   Piętro 2->Room896_1_1_1	     0.0	     0.0	             	        0
+ Piętro 2->Room896_1_1_1_1	     0.0	     0.0	             	        0
+       Piętro 2->Room897_1	     0.0	     0.0	             	        0
+       Piętro 2->Room898_1	     0.0	     0.0	             	        0
+       Piętro 2->Room899_1	     1.1	    10.1	        00175	        3
+       Piętro 2->Room900_1	     0.0	     8.2	        00175	        3
+       Piętro 2->Room901_1	     0.0	     5.5	        00175	        2
+         Piętro 2->Stair10	    12.1	    58.2	        00241	       35
+       Piętro 2->Stair14_1	     3.2	    68.3	        00226	       58
+       Piętro 2->Room903_1	     6.3	    70.9	        00226	       58
+         Piętro 2->Stair16	     8.9	    56.2	        00226	       35
+    Floor 9.0 m->Stair09_2	     5.4	    47.4	        00241	       35
+  Floor 9.0 m->Room296_1_2	     8.6	    50.5	        00241	       35
+  Floor 9.0 m->Stair08_1_1	     9.7	    52.3	        00241	       35
+Floor 9.0 m->Room295_1_1_1	    11.2	    53.9	        00241	       35
+    Floor 9.0 m->Stair13_2	     6.6	    49.9	        00226	       35
+    Floor 9.0 m->Stair14_2	     2.5	    45.9	        00226	       35
+    Floor 9.0 m->Room902_2	     8.0	    52.5	        00226	       35
+    Floor 9.0 m->Room903_2	     5.6	    47.8	        00226	       35
+     Piętro 3->Room106_1_2	     0.0	    22.2	        00241	       10
+   Piętro 3->Room115_1_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room124_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room126_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room127_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room128_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room153_1_2	     0.0	     4.7	        00262	        5
+     Piętro 3->Room156_1_2	     0.0	     2.5	        00278	        1
+     Piętro 3->Room162_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room163_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room165_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room166_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room167_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room168_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room169_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room170_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room178_1_2	     0.0	     1.3	        00231	        1
+     Piętro 3->Room179_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room180_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room181_1_2	     1.4	     3.3	        00292	        1
+     Piętro 3->Room182_1_2	     0.0	     1.4	        00292	        1
+     Piętro 3->Room184_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room186_1_2	     0.0	     6.0	        00225	        3
+     Piętro 3->Room200_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room240_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room241_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room242_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room243_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room244_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room245_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room246_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room247_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room248_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room249_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room250_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room251_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room252_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room253_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room254_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room255_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room256_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room257_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room258_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room259_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room260_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room261_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room262_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room263_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room264_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room265_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room266_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room267_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room274_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room275_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room283_1_2	     0.0	    42.2	        00226	       35
+       Piętro 3->Room815_2	     0.0	     0.0	             	        0
+       Piętro 3->Room817_2	     0.0	     0.0	             	        0
+       Piętro 3->Room818_2	     0.0	     0.0	             	        0
+       Piętro 3->Room819_2	     0.0	     0.0	             	        0
+       Piętro 3->Room820_2	     0.0	    37.7	        00241	       35
+       Piętro 3->Room823_2	     0.0	     0.0	             	        0
+       Piętro 3->Room824_2	     0.0	     0.0	             	        0
+       Piętro 3->Room825_2	     0.0	     0.0	             	        0
+       Piętro 3->Room826_2	     0.0	     0.0	             	        0
+       Piętro 3->Room828_2	     0.0	     0.0	             	        0
+       Piętro 3->Room829_2	     0.0	     0.0	             	        0
+       Piętro 3->Room831_2	     0.0	     0.0	             	        0
+       Piętro 3->Room834_2	     0.0	     0.0	             	        0
+       Piętro 3->Room835_2	     0.0	     0.0	             	        0
+       Piętro 3->Room837_2	     2.9	    42.3	        00256	       35
+       Piętro 3->Room841_2	     0.0	    14.0	        00277	        9
+       Piętro 3->Room851_2	     0.0	     0.0	             	        0
+       Piętro 3->Room852_2	     0.0	     0.0	             	        0
+       Piętro 3->Room853_2	     0.0	     0.0	             	        0
+       Piętro 3->Room854_2	     0.0	     0.0	             	        0
+       Piętro 3->Room855_2	     0.0	     0.0	             	        0
+       Piętro 3->Room856_2	     0.0	     0.0	             	        0
+       Piętro 3->Room857_2	     0.0	     0.0	             	        0
+       Piętro 3->Room858_2	     0.0	     0.0	             	        0
+       Piętro 3->Room859_2	     0.0	     0.0	             	        0
+       Piętro 3->Room860_2	     0.0	     0.0	             	        0
+       Piętro 3->Room861_2	     0.0	     0.0	             	        0
+       Piętro 3->Room862_2	     0.0	     0.0	             	        0
+       Piętro 3->Room863_2	     0.0	     0.0	             	        0
+       Piętro 3->Room870_2	     0.0	     0.0	             	        0
+       Piętro 3->Room874_2	     0.0	    37.9	        00230	       34
+       Piętro 3->Room875_2	     0.0	    21.5	        00230	       15
+       Piętro 3->Room877_2	     0.0	     0.0	             	        0
+       Piętro 3->Room879_2	     0.0	     6.0	        00230	        2
+       Piętro 3->Room880_2	     0.0	     0.0	             	        0
+       Piętro 3->Room881_2	     0.0	     4.8	        00263	        1
+       Piętro 3->Room885_2	     0.0	     0.0	             	        0
+       Piętro 3->Room886_2	     0.0	     0.0	             	        0
+       Piętro 3->Room887_2	     0.0	     0.0	             	        0
+       Piętro 3->Room888_2	     0.0	     0.0	             	        0
+       Piętro 3->Room889_2	     0.0	     0.0	             	        0
+       Piętro 3->Room890_2	     0.0	     0.0	             	        0
+       Piętro 3->Room891_2	     0.0	     0.0	             	        0
+       Piętro 3->Room892_2	     0.0	     0.0	             	        0
+       Piętro 3->Room893_2	     0.0	     2.7	        00285	        1
+       Piętro 3->Room894_2	     0.0	     1.8	        00232	        1
+       Piętro 3->Room895_2	     0.0	     0.0	             	        0
+       Piętro 3->Room896_2	     0.0	     0.0	             	        0
+     Piętro 3->Room896_1_2	     0.0	     0.0	             	        0
+     Piętro 3->Room896_1_2	     0.0	     0.0	             	        0
+   Piętro 3->Room896_1_1_2	     0.0	     1.7	        00269	        1
+   Piętro 3->Room896_1_1_2	     0.0	     0.0	             	        0
+ Piętro 3->Room896_1_1_1_2	     0.0	     0.0	             	        0
+       Piętro 3->Room897_2	     0.0	     1.8	        00244	        1
+       Piętro 3->Room898_2	     0.0	     0.0	             	        0
+       Piętro 3->Room899_2	     0.0	     5.9	        00255	        2
+       Piętro 3->Room900_2	     0.0	     5.2	        00286	        2
+       Piętro 3->Room901_2	     0.0	     3.5	        00286	        1
+
