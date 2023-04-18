@@ -79,3 +79,6 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 ## Artykuły
 - [A review on the hospital evacuation simulation models](https://www.sciencedirect.com/science/article/abs/pii/S2212420922003028), Intiaz Mohammad Abir, Azhar Mohd Ibrahim, Siti Fauziah Toha, Amir Akramin Shafie
 - [A Review of Building Evacuation Models, 2nd Edition](https://www.nist.gov/publications/review-building-evacuation-models-2nd-edition), Erica Kuligowski
+
+# Etap 3. Uruchomione narzędzia
+19.04.2023
