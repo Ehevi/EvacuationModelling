@@ -90,12 +90,12 @@ Pathfinder - komercyjny program opracowany przez Thunderhead Engineering. Umożl
 ### Zdjęcia z programu
 ![Pietro1](Resources/Pietro_1.png)
 ![Parter](Resources/Parter.png)
-![Budynek1](Resources/'Budynek_1.png')
-![Budynek2](Resources/'Budynek_2'.png)
-![Budynek3](Resources/"Budynek_3".png)
+![Budynek1](Resources/Budynek_1.png)
+![Budynek2](Resources/Budynek_2.png)
+![Budynek3](Resources/Budynek_3.png)
 
 ### Wykresy
-![Wykres1](Resources/"Wykres_1.png")
+![Wykres1](Resources/Wykres_1.png)
 ![Wykres2](Resources/Wykres_2.png)
 
 ### [Plik z podsumowaniem symulacji](https://github.com/Ehevi/EvacuationModelling/blob/99dff6111bf9d4d7ba3fc3511c7d57eccdf28dd0/Resources/evacuation_summary.txt)
