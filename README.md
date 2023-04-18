@@ -84,3 +84,18 @@ przemieszczaniem się i procesu przemieszczania się (standard ISO/TR 13387-8)
 19.04.2023
 ## Pathfinder
 Pathfinder - komercyjny program opracowany przez Thunderhead Engineering. Umożlwiwia tworzenie trójwymiarowych modeli budynków oraz symulacji agentowych różnych scenariuszy ewakuacyjnych. Agenci są świadomi otoczenia i dynamicznie podejmują najkorzystniejsze decyzje w celu ewakuowania się z budynku. 
+
+### [Nagranie z przeprowadzonej symulacji](https://drive.google.com/file/d/1_rXWrx716G6AnXzlbwOU6oQEncsTUIY8/view?usp=sharing)
+
+### Zdjęcia z programu
+![Pietro1](Resources/Piętro1.png)
+![Parter](Resources/Parter.png)
+![Budynek1](Resources/Budynek1.png)
+![Budynek2](Resources/Budynek2.png)
+![Budynek3](Resources/Budynek3.png)
+
+### Wykresy
+![Wykres1](Resources/Wykres1.png)
+![Wykres2](Resources/Wykres2.png)
+
+### [Plik z podsumowaniem symulacji](https://github.com/Ehevi/EvacuationModelling/blob/99dff6111bf9d4d7ba3fc3511c7d57eccdf28dd0/Resources/evacuation_summary.txt)
