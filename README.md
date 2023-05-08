@@ -102,3 +102,17 @@ Obecnie wpełni zaimplementowane zostały pierwsze dwa piętra budynku D-17. Na 
 ### [Plik z podsumowaniem symulacji](https://github.com/Ehevi/EvacuationModelling/blob/99dff6111bf9d4d7ba3fc3511c7d57eccdf28dd0/Resources/evacuation_summary.txt)
 
 ## Cromosim
+
+# Etap 4.
+![Floor_0](Resources/Floor_0).png)
+![Floor_1](Resources/Floor_1.png)
+![Floor_2](Resources/Floor_2.png)
+![Floor_3](Resources/Floor_3.png)
+![TopView](Resources/TopView.png)
+![FrontView](Resources/FrontView.png)
+![LeftView](Resources/LeftView.png)
+![RightView](Resources/RightView.png)
+![ExistsFlowRate](Resources/ExistsFlowRate.png)
+![Figure_1](Resources/Figure_1.png)
+
+
