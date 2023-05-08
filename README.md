@@ -104,7 +104,8 @@ Obecnie wpełni zaimplementowane zostały pierwsze dwa piętra budynku D-17. Na 
 ## Cromosim
 
 # Etap 4.
-Model posiada wpełni zaimplementowane piętra budynku D-17, które dodatkowo zostały ograniczone do samego skrzydła Turinga. W symulacji bierze udział 221 agentów, któzy kierują się do jednego z czterech zlokalizowanych na parterze wyjść ewakuacyjnych.
+Model posiada wpełni zaimplementowane piętra budynku D-17, które dodatkowo zostały ograniczone do samego skrzydła Turinga. W symulacji bierze udział 221 agentów, któzy kierują się do jednego z czterech zlokalizowanych na parterze wyjść ewakuacyjnych.  
+
 ![Floor_0](Resources/Floor_0.png)
 ![Floor_1](Resources/Floor_1.png)
 ![Floor_2](Resources/Floor_2.png)
