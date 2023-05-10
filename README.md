@@ -120,12 +120,15 @@ Model posiada wpełni zaimplementowane piętra budynku D-17, które dodatkowo zo
 ## Model wykorzystywany przez narzędzie Pathfinder
 ### Poruszanie się ewakuantów
 1. SFPE - wdraża koncepcje zawarte w Podręczniku **SFPE Handbook of Fire Protection Engineering** (SFPE 2016). Jest to model przepływu, w którym prędkość chodzenia jest określana na podstawie gęstości osób w każdym pokoju, a przepływ przez drzwi jest kontrolowany przez szerokość drzwi.
-2. Sterowanie *(Steering mode)* - oparty na idei odwrotnych zachowań sterujących *(inverse steering behavior)*. Zachowania sterujące zostały po raz pierwszy przedstawione w [artykule Craiga Reinoldsa „Steering Behaviors For Autonomous Characters” (Reinolds 1999)](https://www.researchgate.net/publication/2495826_Steering_Behaviors_For_Autonomous_Characters), a później udoskonalone w odwrotne zachowania sterujące w artykule Heni Ben Amor (Amor i in. 2006). Takie rozwiązanie ma na celu umożliwienie improwizacji i bardziej rzeczywistego zachowania agentów. Sterowanie jest tutaj rozumiane jako definicja ścieżki, po której nastąpi poruszanie się poprzez dekompozycję głównego celu na zbiór podceli. Taki tryb sterowania pozwala na naturalne pojawienie się bardziej złożonych zachowań jako produkt uboczny algorytmów ruchu – eliminując potrzebę jawnych kolejek do drzwi i obliczeń gęstości.
+2. Sterowanie *(Steering mode)* - oparty na idei odwrotnych zachowań sterujących *(inverse steering behavior)*. Zachowania sterujące zostały po raz pierwszy przedstawione w 1999 roku w [artykule Craiga Reinoldsa „Steering Behaviors For Autonomous Characters”](https://www.researchgate.net/publication/2495826_Steering_Behaviors_For_Autonomous_Characters), a później udoskonalone w odwrotne zachowania sterujące w artykule Heni Ben Amor (Amor i in. 2006). Takie rozwiązanie ma na celu umożliwienie improwizacji i bardziej rzeczywistego zachowania agentów. Sterowanie jest tutaj rozumiane jako definicja ścieżki, po której nastąpi poruszanie się poprzez dekompozycję głównego celu na zbiór podceli. Taki tryb sterowania pozwala na naturalne pojawienie się bardziej złożonych zachowań jako produkt uboczny algorytmów ruchu – eliminując potrzebę jawnych kolejek do drzwi i obliczeń gęstości.
 
 ### Geometria
-Pathfinder używa modelu geometrii 3D. W tym modelu geometrycznym znajduje się siatka nawigacyjna zdefiniowana jako ciągła triangulowana powierzchnia 2D, nazywana „siatką nawigacyjną”. Siatka nawigacyjna to nieregularna jednostronna powierzchnia reprezentowana przez sąsiednie trójkąty. Ruch pasażerów odbywa się w granicach tej siatki nawigacyjnej.
+Pathfinder używa modelu geometrii 3D. W tym modelu geometrycznym znajduje się **siatka nawigacyjna** zdefiniowana jako ciągła triangulowana powierzchnia 2D. Siatka nawigacyjna to nieregularna jednostronna powierzchnia reprezentowana przez sąsiednie trójkąty. Ruch pasażerów odbywa się w granicach tej siatki nawigacyjnej.
 
-Rysunek 4 przedstawia model domu szeregowego i odpowiednią siatkę nawigacyjną na rysunku 5. Pathfinder obsługuje rysowanie lub automatyczne generowanie siatki nawigacyjnej z importowanej geometrii — w tym plików Fire Dynamics Simulator (FDS), plików PyroSim i zbioru innych popularnych formatów plików CAD.
+Pathfinder obsługuje rysowanie lub automatyczne generowanie siatki nawigacyjnej z importowanej geometrii — w tym plików Fire Dynamics Simulator (FDS), plików PyroSim i zbioru innych popularnych formatów plików CAD.
 
-![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/bf8d6422-8c18-474c-b8aa-50904bb7c329)
+##### Widok modelu geometrii 3D
 ![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/8a2430da-9b4e-439b-9260-3404125aa1df)
+
+##### Widok siatki nawigacyjnej
+![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/bf8d6422-8c18-474c-b8aa-50904bb7c329)
