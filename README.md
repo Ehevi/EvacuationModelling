@@ -119,8 +119,8 @@ Model posiada wpełni zaimplementowane piętra budynku D-17, które dodatkowo zo
 
 ## Model wykorzystywany przez narzędzie Pathfinder
 ### Poruszanie się ewakuantów
-1. SFPE: 
-2. Sterowanie *(Steering mode)*
+1. SFPE - wdraża koncepcje zawarte w Podręczniku inżynierii ochrony przeciwpożarowej SFPE (SFPE 2016). Jest to model przepływu, w którym prędkość chodzenia jest określana na podstawie gęstości osób w każdym pokoju, a przepływ przez drzwi jest kontrolowany przez szerokość drzwi.
+2. Sterowanie *(Steering mode)* - oparty na idei odwrotnych zachowań sterujących *(inverse steering behavior)*. Zachowania sterujące zostały po raz pierwszy przedstawione w [artykule Craiga Reinoldsa „Steering Behaviors For Autonomous Characters” (Reinolds 1999)](https://www.researchgate.net/publication/2495826_Steering_Behaviors_For_Autonomous_Characters), a później udoskonalone w odwrotne zachowania sterujące w artykule Heni Ben Amor (Amor i in. 2006). Takie rozwiązanie ma na celu umożliwienie improwizacji i bardziej rzeczywistego zachowania agentów. Sterowanie jest tutaj rozumiane jako definicja ścieżki, po której nastąpi poruszanie się poprzez dekompozycję głównego celu na zbiór podceli. Taki tryb sterowania pozwala na naturalne pojawienie się bardziej złożonych zachowań jako produkt uboczny algorytmów ruchu – eliminując potrzebę jawnych kolejek do drzwi i obliczeń gęstości.
 
 ### Geometria
 Pathfinder używa modelu geometrii 3D. W tym modelu geometrycznym znajduje się siatka nawigacyjna zdefiniowana jako ciągła triangulowana powierzchnia 2D, nazywana „siatką nawigacyjną”. Siatka nawigacyjna to nieregularna jednostronna powierzchnia reprezentowana przez sąsiednie trójkąty. Ruch pasażerów odbywa się w granicach tej siatki nawigacyjnej.
