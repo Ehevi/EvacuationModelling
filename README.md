@@ -117,4 +117,15 @@ Model posiada wpełni zaimplementowane piętra budynku D-17, które dodatkowo zo
 ![ExistsFlowRate](Resources/ExitsFlowRate.png)
 ![Figure_1](Resources/Figure_1.png)
 
+## Model wykorzystywany przez narzędzie Pathfinder
+### Poruszanie się ewakuantów
+1. SFPE: 
+2. Sterowanie *(Steering mode)*
 
+### Geometria
+Pathfinder używa modelu geometrii 3D. W tym modelu geometrycznym znajduje się siatka nawigacyjna zdefiniowana jako ciągła triangulowana powierzchnia 2D, nazywana „siatką nawigacyjną”. Siatka nawigacyjna to nieregularna jednostronna powierzchnia reprezentowana przez sąsiednie trójkąty. Ruch pasażerów odbywa się w granicach tej siatki nawigacyjnej.
+
+Rysunek 4 przedstawia model domu szeregowego i odpowiednią siatkę nawigacyjną na rysunku 5. Pathfinder obsługuje rysowanie lub automatyczne generowanie siatki nawigacyjnej z importowanej geometrii — w tym plików Fire Dynamics Simulator (FDS), plików PyroSim i zbioru innych popularnych formatów plików CAD.
+
+![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/bf8d6422-8c18-474c-b8aa-50904bb7c329)
+![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/8a2430da-9b4e-439b-9260-3404125aa1df)
