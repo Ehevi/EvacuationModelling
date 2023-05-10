@@ -117,4 +117,54 @@ Model posiada wpełni zaimplementowane piętra budynku D-17, które dodatkowo zo
 ![ExistsFlowRate](Resources/ExitsFlowRate.png)
 ![Figure_1](Resources/Figure_1.png)
 
+## Model wykorzystywany przez narzędzie Pathfinder
+### Poruszanie się ewakuantów
+1. SFPE - wdraża koncepcje zawarte w Podręczniku **SFPE Handbook of Fire Protection Engineering** (SFPE 2016). Jest to model przepływu, w którym prędkość chodzenia jest określana na podstawie gęstości osób w każdym pokoju, a przepływ przez drzwi jest kontrolowany przez szerokość drzwi.
+2. Sterowanie *(Steering mode)* - oparty na idei odwrotnych zachowań sterujących *(inverse steering behavior)*. Zachowania sterujące zostały po raz pierwszy przedstawione w 1999 roku w [artykule Craiga Reinoldsa „Steering Behaviors For Autonomous Characters”](https://www.researchgate.net/publication/2495826_Steering_Behaviors_For_Autonomous_Characters), a później udoskonalone w odwrotne zachowania sterujące w artykule Heni Ben Amor (Amor i in. 2006). Takie rozwiązanie ma na celu umożliwienie improwizacji i bardziej rzeczywistego zachowania agentów. Sterowanie jest tutaj rozumiane jako definicja ścieżki, po której nastąpi poruszanie się poprzez dekompozycję głównego celu na zbiór podceli. Taki tryb sterowania pozwala na naturalne pojawienie się bardziej złożonych zachowań jako produkt uboczny algorytmów ruchu – eliminując potrzebę jawnych kolejek do drzwi i obliczeń gęstości.
 
+### Geometria
+Pathfinder używa modelu geometrii 3D. W tym modelu geometrycznym znajduje się **siatka nawigacyjna** zdefiniowana jako ciągła triangulowana powierzchnia 2D. Siatka nawigacyjna to nieregularna jednostronna powierzchnia reprezentowana przez sąsiednie trójkąty. Ruch pasażerów odbywa się w granicach tej siatki nawigacyjnej.
+
+Pathfinder obsługuje rysowanie lub automatyczne generowanie siatki nawigacyjnej z importowanej geometrii — w tym plików Fire Dynamics Simulator (FDS), plików PyroSim i zbioru innych popularnych formatów plików CAD.
+
+##### Widok modelu geometrii 3D
+![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/8a2430da-9b4e-439b-9260-3404125aa1df)
+
+##### Widok siatki nawigacyjnej
+![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/bf8d6422-8c18-474c-b8aa-50904bb7c329)
+
+Przeszkody są pośrednio reprezentowane jako luki w siatce nawigacyjnej. Ponieważ ewakuanci mogą przemieszczać się tylko po siatce nawigacyjnej, technika ta zapobiega wpływowi narzutu reprezentacji obiektu stałego na symulator. Gdy siatka nawigacyjna jest generowana przez importowanie geometrii, każdy obszar siatki zablokowany przez obiekt bryłowy jest automatycznie usuwany.
+
+### Zachowania i cele ewakuantów
+Każdemu aktorowi przypisuje się w interfejsie użytkownika odpowiednie zachowanie. Zachowanie dyktuje sekwencję celów, które pasażer musi osiągnąć w symulacji.
+
+Główne typy celów w Pathfinder:
+1. Cele bezczynne *(idle)* - aktor czeka w danej lokalizacji do momentu wystąpienia zdarzenia, takiego jak upłynięcie przedziału czasowego lub dotarcie windy na piętro rozładowania.
+2. Cele poszukujące *(seek)* - aktor porusza się w kierunku miejsca docelowego, takiego jak punkt nawigacyjny, pokój, winda lub wyjście.
+3. Cele natychmiastowe *(instantaneous)* - występują w jednym kroku czasowym.
+
+##### Opisy zachowań ewakuantów
+![brak odpowiedzi](https://github.com/Ehevi/EvacuationModelling/assets/48785655/b70273c4-3f18-41ce-b6ce-fc87e335e1a8)
+
+### Znajdowanie ścieżki
+1. Planowanie
+2. Generowanie ścieżki
+3. Poruszanie się po ścieżce
+
+##### Tryb SFPE
+![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/f49ea4a5-0715-4a89-801b-db30244be582)
+
+##### Tryb sterowania
+![image](https://github.com/Ehevi/EvacuationModelling/assets/48785655/34467c1d-c458-43cf-9c8d-c1e4bff128ab)
+
+### Opis pętli symulacyjnej
+Pathfinder działa w pętli symulacyjnej, która oblicza ruch w dyskretnych krokach czasowych. Dla każdego kroku czasowego wykonywane są następujące kroki:
+
+1. Zaktualizuj bieżący punkt docelowy każdego aktora. Ten krok trwa najdłużej na pierwszym etapie, ponieważ każdy aktor musi znaleźć ścieżkę do swojego celu.
+2. Oblicz prędkość sterowania każdego aktora. Prędkość będzie obliczana inaczej w zależności od tego, czy aktywny jest tryb SFPE, czy sterowanie reaktywne.
+3. Zwiększ bieżący krok czasu.
+4. Przesuń każdego aktora.
+    * Oblicz prędkość dla aktualnego czasu. Jeśli tryb sterowania jest włączony, funkcja ta obliczy żądaną siłę kierowania na podstawie żądanej prędkości, a następnie użyje całkowania do obliczenia rzeczywistej prędkości.  trybie SFPE zostanie to po prostu ustawione na żądaną prędkość.
+    * Jeśli funkcja unikania kolizji jest włączona, wykryj potencjalne kolizje i zmodyfikuj żądaną prędkość, aby uniknąć kolizji.
+    * Całkuj prędkość końcową, aby znaleźć maksymalną odległość przemieszczenia i przemieść agenta wzdłuż siatki, aż ta odległość zostanie osiągnięta lub do najwcześniejszej kolizji.
+5. Zaktualizuj pliki wyjściowe.
