@@ -163,8 +163,8 @@ Pathfinder działa w pętli symulacyjnej, która oblicza ruch w dyskretnych krok
 1. Zaktualizuj bieżący punkt docelowy każdego aktora. Ten krok trwa najdłużej na pierwszym etapie, ponieważ każdy aktor musi znaleźć ścieżkę do swojego celu.
 2. Oblicz prędkość sterowania każdego aktora. Prędkość będzie obliczana inaczej w zależności od tego, czy aktywny jest tryb SFPE, czy sterowanie reaktywne.
 3. Zwiększ bieżący krok czasu.
-4. Przesuń każdego aktora. Obejmuje to kilka podetapów:
-4.1. Oblicz prędkość dla aktualnego czasu. Jeśli tryb sterowania jest włączony, funkcja ta obliczy żądaną siłę kierowania na podstawie żądanej prędkości, a następnie użyje całkowania do obliczenia rzeczywistej prędkości.  trybie SFPE zostanie to po prostu ustawione na żądaną prędkość.
-4.2. Jeśli funkcja unikania kolizji jest włączona, wykryj potencjalne kolizje i zmodyfikuj żądaną prędkość, aby uniknąć kolizji.
-4.3. Całkuj prędkość końcową, aby znaleźć maksymalną odległość przemieszczenia i przemieść agenta wzdłuż siatki, aż ta odległość zostanie osiągnięta lub do najwcześniejszej kolizji.
+4. Przesuń każdego aktora.
+    * Oblicz prędkość dla aktualnego czasu. Jeśli tryb sterowania jest włączony, funkcja ta obliczy żądaną siłę kierowania na podstawie żądanej prędkości, a następnie użyje całkowania do obliczenia rzeczywistej prędkości.  trybie SFPE zostanie to po prostu ustawione na żądaną prędkość.
+    * Jeśli funkcja unikania kolizji jest włączona, wykryj potencjalne kolizje i zmodyfikuj żądaną prędkość, aby uniknąć kolizji.
+    * Całkuj prędkość końcową, aby znaleźć maksymalną odległość przemieszczenia i przemieść agenta wzdłuż siatki, aż ta odległość zostanie osiągnięta lub do najwcześniejszej kolizji.
 5. Zaktualizuj pliki wyjściowe.
