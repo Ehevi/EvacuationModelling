@@ -171,3 +171,15 @@ Pathfinder działa w pętli symulacyjnej, która oblicza ruch w dyskretnych krok
 
 # Etap 5.
 Zachowania poszczególnych agentów zostały zmodyfikowane w taki sposób, aby były zgodne z rzeczywistymi danymi (z ewakuacji budynku D17 Akademii Górniczo-Hutniczej w Krakowie). Postaci z różnych pomieszczeń rozpoczynają ewakuację z ustalonym opóźnieniem. Prędkość poruszania się postaci została ustawiona na 0.91m/s (zgodnie z pracą dyplomową). Obecnie symulacja trwa 432 sekundy, gdzie w rzeczywistości ewakuacja zajęła 428 sekund.
+
+|  | Dane rzeczywiste | Symulacja |
+|--------:|--------|--------------|
+| czas trwania | 428s | 432s |
+| wyjście W1 | 32 | 3 |
+| wyjście W2 | 17 | 0 |
+| wyjście W3 | 157 | 166 |
+| wyjście W4 | 18 | 48 |
+
+![ExitsFlowRate2](Resources/ExitsFlowRate2.png)
+![RemainingOccupants](Resources/RemainingOccupants.png)
+
