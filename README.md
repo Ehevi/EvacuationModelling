@@ -168,3 +168,6 @@ Pathfinder działa w pętli symulacyjnej, która oblicza ruch w dyskretnych krok
     * Jeśli funkcja unikania kolizji jest włączona, wykryj potencjalne kolizje i zmodyfikuj żądaną prędkość, aby uniknąć kolizji.
     * Całkuj prędkość końcową, aby znaleźć maksymalną odległość przemieszczenia i przemieść agenta wzdłuż siatki, aż ta odległość zostanie osiągnięta lub do najwcześniejszej kolizji.
 5. Zaktualizuj pliki wyjściowe.
+
+# Etap 5.
+Zachowania poszczególnych agentów zostały zmodyfikowane w taki sposób, aby były zgodne z rzeczywistymi danymi (z ewakuacji budynku D17 Akademii Górniczo-Hutniczej w Krakowie). Postaci z różnych pomieszczeń rozpoczynają ewakuację z ustalonym opóźnieniem. Prędkość poruszania się postaci została ustawiona na 0.91m/s (zgodnie z pracą dyplomową). Obecnie symulacja trwa 432 sekundy, gdzie w rzeczywistości ewakuacja zajęła 428 sekund.
