@@ -175,6 +175,7 @@ Zachowania poszczególnych agentów zostały zmodyfikowane w taki sposób, aby b
 |  | Dane rzeczywiste | Symulacja |
 |--------:|--------|--------------|
 | czas trwania | 428s | 432s |
+| liczba osób |
 | wyjście W1 | 32 | 3 |
 | wyjście W2 | 17 | 0 |
 | wyjście W3 | 157 | 166 |
