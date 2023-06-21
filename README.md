@@ -191,5 +191,7 @@ Nagranie z dopracowanego modelu, w porównaniu z poprzednią wersją zmieniono p
 ### Finalna tabela z wynikami
 ### Dane z referencyjnej pracy magisterskiej
 ![Krzywe-ewakuacji](https://github.com/Ehevi/EvacuationModelling/assets/48785655/d59f0522-a9d2-44dc-9e09-b1b95676cbf8)
+
+*Modelowanie ewakuacji budynków z wykorzystaniem metody propagacji sygnałów*, A. Bogacz, Praca dyplomowa magisterska, Kraków 2020
 ## Analiza wyników
 ### Identyfikacja różnic w wyborze klatek schodowych
