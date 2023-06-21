@@ -213,4 +213,5 @@ Wykres z symulacji w Pathfinderze w przybliżeniu zachowuje kształt wykresu prz
 ### Zbliżona do liniowego wykres zależności opuszczania poszczególnych pięter w czasie
 ![piętra](https://github.com/Ehevi/EvacuationModelling/assets/48785655/bde5f013-f914-47d5-8a27-f9e5ad98e474)
 
-
+## Interpretacja rozbieżności
+- brak świadomości rzeczywistych ewakuantów na temat ułożenia budynku, w którym się znajdują (wyjścia, z których zazwyczaj się nie korzysta), natomiast symulowani ewakuanci znają swoje otoczenie
