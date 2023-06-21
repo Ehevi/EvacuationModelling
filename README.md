@@ -195,8 +195,8 @@ Nagranie z dopracowanego modelu, w porównaniu z poprzednią wersją zmieniono p
 | liczba osób | 217 | 217 |
 | wyjście W1 | 32 | 3 |
 | wyjście W2 | 17 | 0 |
-| wyjście W3 | 157 | 166 |
-| wyjście W4 | 18 | 48 |
+| wyjście W3 | 157 | 174 |
+| wyjście W4 | 18 | 40 |
 ### Dane z referencyjnej pracy magisterskiej
 ![Krzywe-ewakuacji](https://github.com/Ehevi/EvacuationModelling/assets/48785655/d59f0522-a9d2-44dc-9e09-b1b95676cbf8)
 
