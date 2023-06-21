@@ -183,3 +183,13 @@ Zachowania poszczególnych agentów zostały zmodyfikowane w taki sposób, aby b
 
 ![ExitsFlowRate2](Resources/ExitsFlowRate2.png)
 ![RemainingOccupants](Resources/RemainingOccupants.png)
+
+# Etap 6.
+## [Finalna wizualizacja](https://drive.google.com/file/d/1tNnZh33-pKelAO6d0BPbETfQY-AUOXLi/view?fbclid=IwAR39-ivjKATn8UM1seysmPXOo8SgxoKif42WLOVTqf4H5WS4YZwyAqaFIrE)
+Nagranie z dopracowanego modelu, w porównaniu z poprzednią wersją zmieniono prędkość poruszania się ewakuantów na 1.09m/s
+## Porównanie diagramu 23. z referencyjnej pracy magisterskiej z danymi z symulacji.
+### Finalna tabela z wynikami
+### Dane z referencyjnej pracy magisterskiej
+![Krzywe-ewakuacji](https://github.com/Ehevi/EvacuationModelling/assets/48785655/d59f0522-a9d2-44dc-9e09-b1b95676cbf8)
+## Analiza wyników
+### Identyfikacja różnic w wyborze klatek schodowych
