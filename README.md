@@ -189,6 +189,14 @@ Zachowania poszczególnych agentów zostały zmodyfikowane w taki sposób, aby b
 Nagranie z dopracowanego modelu, w porównaniu z poprzednią wersją zmieniono prędkość poruszania się ewakuantów na 1.09m/s
 ## Porównanie diagramu 23. z referencyjnej pracy magisterskiej z danymi z symulacji.
 ### Finalna tabela z wynikami
+|  | Dane rzeczywiste | Symulacja |
+|--------:|--------|--------------|
+| czas trwania | 428s | 428.275s |
+| liczba osób | 217 | 217 |
+| wyjście W1 | 32 | 3 |
+| wyjście W2 | 17 | 0 |
+| wyjście W3 | 157 | 166 |
+| wyjście W4 | 18 | 48 |
 ### Dane z referencyjnej pracy magisterskiej
 ![Krzywe-ewakuacji](https://github.com/Ehevi/EvacuationModelling/assets/48785655/d59f0522-a9d2-44dc-9e09-b1b95676cbf8)
 
