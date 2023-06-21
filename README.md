@@ -195,17 +195,21 @@ Nagranie z dopracowanego modelu, w porównaniu z poprzednią wersją zmieniono p
 | liczba osób | 217 | 217 |
 | wyjście W1 | 32 | 3 |
 | wyjście W2 | 17 | 0 |
-| wyjście W3 | 157 | 166 |
-| wyjście W4 | 18 | 48 |
+| wyjście W3 | 157 | 174 |
+| wyjście W4 | 18 | 40 |
 ### Dane z referencyjnej pracy magisterskiej
 ![Krzywe-ewakuacji](https://github.com/Ehevi/EvacuationModelling/assets/48785655/d59f0522-a9d2-44dc-9e09-b1b95676cbf8)
 
 *Modelowanie ewakuacji budynków z wykorzystaniem metody propagacji sygnałów*, A. Bogacz, Praca dyplomowa magisterska, Kraków 2020
-## Wykres na podstawie analogicznych danych uzyskanych w symulacji przy pomocy Pathfindera
+### Wykres na podstawie analogicznych danych uzyskanych w symulacji przy pomocy Pathfindera
 ![pathfinder-simulation](https://github.com/Ehevi/EvacuationModelling/assets/48785655/39ffabeb-530a-4f8a-8c7a-67b426952965) ![legenda](https://github.com/Ehevi/EvacuationModelling/assets/48785655/65c5d580-fda2-444d-8b32-a79ffbd45229)
 
 ## Analiza wyników
-### Identyfikacja różnic w wyborze klatek schodowych
+### Obserwacje
+Wykres z symulacji w Pathfinderze w przybliżeniu zachowuje kształt wykresu przedstawiającego dane z pracy A. Bogacz (różne miary odleglości na osiach wykresów). Występują jednak następujące różnice:
+- inne preferencje w wyborze wyjść z budynku (tabela)
+- "liniowe" opuszczanie pięter (wykres poniżej)
+- 259 sekunda (518 iteracja na wykresie z referencyjnej pracy) to moment otwarcia wyjścia W3, w naszej symulacji wszystkie drzwi są otwarte od początku
 ### Zbliżona do liniowego wykres zależności opuszczania poszczególnych pięter w czasie
 ![piętra](https://github.com/Ehevi/EvacuationModelling/assets/48785655/bde5f013-f914-47d5-8a27-f9e5ad98e474)
 
