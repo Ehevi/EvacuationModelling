@@ -201,5 +201,12 @@ Nagranie z dopracowanego modelu, w porównaniu z poprzednią wersją zmieniono p
 ![Krzywe-ewakuacji](https://github.com/Ehevi/EvacuationModelling/assets/48785655/d59f0522-a9d2-44dc-9e09-b1b95676cbf8)
 
 *Modelowanie ewakuacji budynków z wykorzystaniem metody propagacji sygnałów*, A. Bogacz, Praca dyplomowa magisterska, Kraków 2020
+## Wykres na podstawie analogicznych danych uzyskanych w symulacji przy pomocy Pathfindera
+![pathfinder-simulation](https://github.com/Ehevi/EvacuationModelling/assets/48785655/39ffabeb-530a-4f8a-8c7a-67b426952965) ![legenda](https://github.com/Ehevi/EvacuationModelling/assets/48785655/65c5d580-fda2-444d-8b32-a79ffbd45229)
+
 ## Analiza wyników
 ### Identyfikacja różnic w wyborze klatek schodowych
+### Zbliżona do liniowego wykres zależności opuszczania poszczególnych pięter w czasie
+![piętra](https://github.com/Ehevi/EvacuationModelling/assets/48785655/bde5f013-f914-47d5-8a27-f9e5ad98e474)
+
+
